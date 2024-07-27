@@ -19,7 +19,7 @@ Aqui está um diagrama visual do projeto criado com Excalidraw:
 
 <details>
   <summary>
-    <strong>❗️❗️ Instalação ❗️❗️</strong>
+    <strong>❗️❗️ Instalação e como usar ❗️❗️</strong>
   </summary>
 
 ## 1. Clone o repositório:
@@ -31,13 +31,21 @@ Aqui está um diagrama visual do projeto criado com Excalidraw:
   ```bash
     npm install
   ```
-## 3. Gere o PrismaClient e execute o script de seed:
+
+## 3. Crie um arquivo .env na raiz do projeto e adicione as seguintes variáveis de ambiente:
+  ```env
+    PORT=3001 // Ou qualquer outra porta que desejar
+    DATABASE_URL="sua_url_do_banco_de_dados"
+  ```
+
+
+## 4. Gere o PrismaClient e execute o script de seed:
   ```bash
     npx prisma generate
     npm run seed
   ```
 
-## 4. Execute o servidor
+## 5. Execute o servidor
   ```bash
     npm run dev
   ```
