@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "seed": "tsx src/scripts/seed.ts",
-    "reset": "tsx src/scripts/reset.ts"
+    "reset": "tsx src/scripts/reset.ts",
+    "vercel-build": "prisma generate"
   },
   "keywords": [],
   "author": "",
