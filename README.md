@@ -19,7 +19,7 @@ Aqui está um diagrama visual do projeto criado com Excalidraw:
 
 <details>
   <summary>
-    <strong>❗️❗️ Instalação e como usar ❗️❗️</strong>
+    <strong>❗️❗️ Instalação e utilização ❗️❗️</strong>
   </summary>
 
 ## 1. Clone o repositório:
